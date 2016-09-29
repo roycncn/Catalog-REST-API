@@ -1,0 +1,31 @@
+db.products.insert({
+    name: "Kindle E-reader - Black, 6",
+    category: "E-books",
+    model: "Kindle",
+    price: 79.99,
+    available: true,
+    release_date: ISODate("2016-06-06"),
+    specifications:{
+        height: "7.63 inch",
+        width: "10.52 inch",
+        weight: "21.92 ounces"
+    },
+    reviews: [
+      {
+        subject: "1111",
+        body: "222222"
+      },
+      {
+        subject: "1111",
+        body: "222222"
+      },
+      {
+        subject: "1111",
+        body: "222222"
+      },
+      {
+        subject: "1111",
+        body: "222222"
+      }
+    ]
+})
